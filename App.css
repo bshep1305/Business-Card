@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+  
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+body {
+  background:  #18191A;
+}
+
+
+/* LAYOUT */
+.pagecontainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: .5em;
+  background: #1B1212;
+  border: 1px solid #1b1212;
+  border-radius: 10px;
+}
+.aboutcontainer, interestscontainer, footercontainer {
+  padding: 1em;
+}
+
+
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+/* TYOPGRAPHY  */
+
+h2 {
+  color: white;
+
+  font-size: 1rem;
+  
+  
+}
+p {
+  color: #fff2f1;
+  text-align: center;
+  font-size: .8rem;
+  line-height: 1.2;
+}
+
+
+
+.myname {
+  text-align: center;
+  /* font-size: 1.2rem; */
+  
+}
+
+.jobtitle {
+  color: gold;
+}
+
+/* BUTTONS */
+
+/* .button {
+  display: inline-block;
+  font-weight: 900;
+  font-size: .8rem;
+  color: black;
+  text-align: center;
+  background: white;
+  margin: .6em 4em;
+  border-radius: 10px;
+} */
+
+.button {
+  display: inline-block;
+  color: black;
+  font-weight: 900;
+  font-size: .8rem;
+ background: #fff2f1;
+  margin: 1em;
+  border-radius: 4px;
+  
+}
+
+.button1 {
+  padding: .6em 1.6em;
+}
+.button2 {
+  background: aqua;
+   padding: .6em .6em
+}
+
